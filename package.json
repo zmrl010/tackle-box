@@ -8,8 +8,8 @@
     "src"
   ],
   "engines": {
-    "pnpm": ">=3",
-    "node": ">=14"
+    "pnpm": ">=6",
+    "node": ">=16"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
