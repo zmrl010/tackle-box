@@ -5,7 +5,7 @@ plugins:
   - ["@semantic-release/commit-analyzer", { preset: "conventionalcommits" }]
   - "@semantic-release/release-notes-generator"
   - "@semantic-release/changelog"
-  - ["@semantic-release/npm", { npmPublish: false }]
+  - ["@semantic-release/npm", { npmPublish: false, tarballDir: "release" }]
   # TODO replace entire npm module with custom pnpm commands
   - [
       "@semantic-release/exec",
