@@ -5,9 +5,12 @@ plugins:
   - ["@semantic-release/commit-analyzer", { preset: "conventionalcommits" }]
   - "@semantic-release/release-notes-generator"
   - "@semantic-release/changelog"
-  - ["@semantic-release/npm", { npmPublish: false, tarballDir: "release" }]
+  - ["@semantic-release/npm", { npmPublish: false }]
   # TODO replace entire npm module with custom pnpm commands
-  - ["@semantic-release/exec", { publishCmd: "pnpm publish --access public" }]
+  - [
+      "@semantic-release/exec",
+      { publishCmd: "pnpm publish --access public --no-git-checks" },
+    ]
   - [
       "@semantic-release/git",
       { assets: [CHANGELOG.md, package.json, pnpm-lock.yml] },
