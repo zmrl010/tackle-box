@@ -55,9 +55,9 @@ import { useIsoLayoutEffect } from "@zmrl/tackle-box";
 
 function App() {
   useIsoLayoutEffect(() => {
-    return subscribeToSomething()
+    return subscribeToSomething();
   }, []);
 
-  return <ChildrenComponents >
+  return <ChildrenComponents />;
 }
 ```
