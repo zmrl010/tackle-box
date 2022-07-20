@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/zmrl010/tackle-box/compare/v1.0.2...v1.0.3) (2022-07-20)
+
+
+### Bug Fixes
+
+* try publish with just npm ([82b0bbb](https://github.com/zmrl010/tackle-box/commit/82b0bbb71a626f774aaf9588dbb411da300c7612))
+
 ## [1.0.2](https://github.com/zmrl010/tackle-box/compare/v1.0.1...v1.0.2) (2022-07-20)
 
 
