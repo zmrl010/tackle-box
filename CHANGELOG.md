@@ -1,3 +1,10 @@
+# [2.0.0](https://github.com/zmrl010/tackle-box/compare/v1.0.3...v2.0.0) (2022-07-20)
+
+
+### Bug Fixes
+
+* add eslint override to include dev tsconfig ([a69000a](https://github.com/zmrl010/tackle-box/commit/a69000a876106c7460055f0b09e568797a049d4c))
+
 ## [1.0.3](https://github.com/zmrl010/tackle-box/compare/v1.0.2...v1.0.3) (2022-07-20)
 
 
