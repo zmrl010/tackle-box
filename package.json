@@ -1,6 +1,6 @@
 {
   "name": "@zmrl/tackle-box",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "My personal stash of React hooks.",
   "main": "dist/index.js",
   "files": [
