@@ -5,9 +5,9 @@ module.exports = {
   extends: ["@zmrl"],
   overrides: [
     {
-      files: ["**/*.ts?(x)"],
+      files: ["spec/*.ts?(x)"],
       parserOptions: {
-        project: "./tsconfig.dev.json",
+        project: "./spec/tsconfig.json",
       },
     },
   ],
