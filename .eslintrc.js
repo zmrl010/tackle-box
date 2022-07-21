@@ -7,7 +7,7 @@ module.exports = {
     {
       files: ["spec/*.ts?(x)"],
       parserOptions: {
-        project: "./spec/tsconfig.json",
+        project: "spec/tsconfig.json",
       },
     },
   ],
