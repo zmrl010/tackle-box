@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "node16",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
     "jsx": "react-jsx",
-    "outDir": "dist"
+    "module": "node16",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2020"
   },
   "include": ["src"]
 }
