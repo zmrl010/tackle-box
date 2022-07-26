@@ -1,5 +1,5 @@
-import TackleBox from "./TackleBox";
+import createTackleBox from "./factories/createTackleBox";
 
-const { useEvent, useIsoLayoutEffect } = TackleBox;
+const { useEvent, useIsoLayoutEffect } = createTackleBox({ window });
 
-export { TackleBox, useEvent, useIsoLayoutEffect };
+export { useEvent, useIsoLayoutEffect };
