@@ -1,3 +1,10 @@
+# [3.0.0](https://github.com/zmrl010/tackle-box/compare/v2.0.1...v3.0.0) (2022-07-26)
+
+
+### Bug Fixes
+
+* keep comments during compilation ([b841eab](https://github.com/zmrl010/tackle-box/commit/b841eabab010be599a4f909faef38261ab036c71))
+
 ## [2.0.1](https://github.com/zmrl010/tackle-box/compare/v2.0.0...v2.0.1) (2022-07-21)
 
 
