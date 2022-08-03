@@ -3,18 +3,22 @@
   "version": "3.0.0",
   "description": "My personal stash of React hooks.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "files": [
     "dist",
     "src"
   ],
   "engines": {
-    "pnpm": ">=6",
+    "pnpm": ">=7",
     "node": ">=16"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "test": "jest",
-    "build": "tsc",
+    "build": "tsc --build",
     "prepare": "pnpm run build"
   },
   "keywords": [
