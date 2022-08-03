@@ -1,5 +1,5 @@
 import { renderHook } from "@testing-library/react";
-import { useEvent } from "../src";
+import { useEvent } from "../";
 
 describe("useEvent()", () => {
   it("should always return the same function", () => {

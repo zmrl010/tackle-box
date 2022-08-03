@@ -1,4 +1,4 @@
-import createTackleBox from "./factories/createTackleBox";
+import createTackleBox from "./createTackleBox";
 
 const { useEvent, useIsoLayoutEffect } = createTackleBox({ window });
 

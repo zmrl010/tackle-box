@@ -5,7 +5,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx",
-    "module": "node16",
+    "module": "NodeNext",
     "outDir": "dist",
     "sourceMap": true,
     "strict": true,

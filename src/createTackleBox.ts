@@ -1,5 +1,5 @@
-import createUseEvent from "./createUseEvent";
-import createUseIsoLayoutEffect from "./createUseIsoLayoutEffect";
+import createUseEvent from "./useEvent/createUseEvent";
+import createUseIsoLayoutEffect from "./useIsoLayoutEffect/createUseIsoLayoutEffect";
 
 export interface TackleBoxDependencies {
   window?: unknown | undefined;
