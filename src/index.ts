@@ -1,5 +1,6 @@
 import createTackleBox from "./createTackleBox";
 
-export const { useEvent, useIsoLayoutEffect, useForkRef } = createTackleBox({
-  window,
-});
+export const { useEvent, useIsoLayoutEffect, useForkRef, useElementSize } =
+  createTackleBox({
+    window,
+  });

@@ -1,3 +1,4 @@
+import createUseElementSize from "./useElementSize/createUseElementSize";
 import createUseEvent from "./useEvent/createUseEvent";
 import createUseForkRef from "./useForkRef/createUseForkRef";
 import createUseIsoLayoutEffect from "./useIsoLayoutEffect/createUseIsoLayoutEffect";
@@ -18,6 +19,8 @@ export default function createTackleBox({ window }: TackleBoxDependencies) {
   const useEvent = createUseEvent({ useIsoLayoutEffect });
 
   const useForkRef = createUseForkRef();
+
+  const useElementSize = createUseElementSize();
 
   return {
     /**
@@ -43,5 +46,12 @@ export default function createTackleBox({ window }: TackleBoxDependencies) {
      * single function to a child
      */
     useForkRef,
+    /**
+     * Automatically detect an elements' size
+     *
+     * This hook uses ResizeObserver to keep state
+     * in sync with underlying DOM element
+     */
+    useElementSize,
   };
 }
