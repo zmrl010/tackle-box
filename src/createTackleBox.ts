@@ -1,4 +1,5 @@
 import createUseEvent from "./useEvent/createUseEvent";
+import createUseForkRef from "./useForkRef/createUseForkRef";
 import createUseIsoLayoutEffect from "./useIsoLayoutEffect/createUseIsoLayoutEffect";
 
 export interface TackleBoxDependencies {
@@ -15,6 +16,8 @@ export default function createTackleBox({ window }: TackleBoxDependencies) {
   const useIsoLayoutEffect = createUseIsoLayoutEffect(window);
 
   const useEvent = createUseEvent({ useIsoLayoutEffect });
+
+  const useForkRef = createUseForkRef();
 
   return {
     /**
@@ -33,5 +36,12 @@ export default function createTackleBox({ window }: TackleBoxDependencies) {
      * to useEffect when server rendering
      */
     useIsoLayoutEffect,
+    /**
+     * Create a function that will set both passed refs.
+     *
+     * Useful as a way to *merge* refs and pass a
+     * single function to a child
+     */
+    useForkRef,
   };
 }

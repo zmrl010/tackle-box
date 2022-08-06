@@ -43,6 +43,38 @@ function App() {
   [RFC](https://github.com/reactjs/rfcs/blob/useevent/text/0000-useevent.md).
   It isn't quite there yet but I need it right away.
 
+### `useForkRef`
+
+> Create a function that will set both passed refs.
+> Useful as a way to *merge* refs and pass a
+> single function to a child
+
+```tsx
+import { type ReactNode, forwardRef, useRef } from 'react'
+import { useForkRef } from "@zmrl/tackle-box";
+
+interface Props {
+  children: ReactNode
+}
+
+const Child = forwardRef<HTMLDivElement, Props>(function Child(props, ref) {
+  const newRef = useRef<HTMLDivElement>()
+  const handleRef = useForkRef(ref, newRef)
+
+  return (
+    <div ref={handleRef}>
+      👍
+    </div>
+  )
+})
+
+function App() {
+  const ref = useRef<HTMLDivElement>()
+
+  return <Child ref={ref} />;
+}
+```
+
 ### `useIsoLayoutEffect`
 
 > Isomorphic layout effect that falls back
