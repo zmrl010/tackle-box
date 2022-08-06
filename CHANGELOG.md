@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/zmrl010/tackle-box/compare/v3.0.0...v3.1.0) (2022-08-06)
+
+
+### Features
+
+* new hook: useForkRef hook ([403612a](https://github.com/zmrl010/tackle-box/commit/403612a5b8a12a523d7211e86abd56e32fe2f5b4))
+
 # [3.0.0](https://github.com/zmrl010/tackle-box/compare/v2.0.1...v3.0.0) (2022-07-26)
 
 
