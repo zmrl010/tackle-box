@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/zmrl010/tackle-box/compare/v3.1.0...v3.2.0) (2022-08-06)
+
+
+### Features
+
+* new hook: useElementSize ([fca1125](https://github.com/zmrl010/tackle-box/commit/fca1125f37971e5dde297a1ddd03e752d70493a0))
+
 # [3.1.0](https://github.com/zmrl010/tackle-box/compare/v3.0.0...v3.1.0) (2022-08-06)
 
 
